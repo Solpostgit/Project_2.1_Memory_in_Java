@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int value = 33;
+        changeValue(value);
+        System.out.println(value);
+    }
+
+    public static void changeValue(int value) {
+        value = 22;
+        System.out.println("value = " + value);
     }
 }
